@@ -52,9 +52,9 @@ text-align: center;
 width: 100%;
 }
 
-/* .menu .item-menu00 {
+.menu .item-menu00 {
     width: auto;
-} */
+}
 .menu ul{
   /* list-style-type: none; */
   min-width: 1347px;
@@ -80,7 +80,7 @@ width: 100%;
     color: rgb(165, 19, 205);
     display: inline-flexbox;
     padding: 50px 63px 50px 50px;
-    /* text-decoration: none; */
+    text-decoration: none;
     font-weight: bold;/* deixa o texto em negrito */
     text-align: center;
     width: 100%;
