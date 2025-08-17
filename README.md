@@ -43,6 +43,11 @@ a atividade especial de **Sábado Letivo (03/12/2022)** e exercícios práticos 
   - Pasta **Aula HTML**: primeiros exercícios introdutórios de marcação.  
   - Pasta **PW**: práticas dirigidas de Programação Web I.  
   - Estrutura inicial do repositório, mostrando o progresso desde os fundamentos até os projetos mais avançados.
+    
+- **Exercícios de Aula — HTML & CSS (29/08/2022 em diante)**  
+  - *index.html*: introdução com **histórico e fundamentos da Web**, uso de **CSS inline** e primeiros conceitos de marcação:contentReference[oaicite:2]{index=2}.  
+  - *ex01.html*: prática com **listas ordenadas (romanos, letras), listas não ordenadas**, exemplos de **listas de carnes para churrasco**, além de **tabelas com cabeçalho, sem cabeçalho e com mesclagem de colunas**:contentReference[oaicite:3]{index=3}.  
+  - Foco: estruturação de páginas, aplicação de estilos internos/externos e navegação entre arquivos locais.
 
 
 
