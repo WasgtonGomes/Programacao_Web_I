@@ -1,0 +1,85 @@
+#filme5,#series5, #mangas5, #anime5, #cartaz5{
+    border: rgb(0, 0, 0) solid;
+    border-radius: 4px;
+    margin: 4px;
+    background-color: rgb(79, 77, 77);
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 0px;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: -20px;
+}
+
+img{
+    max-width:400px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    padding-top: 0PX;
+
+}
+.cruella, .lucifer , .a_mulher_rei{  
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    text-align: center; 
+    color: rgb(164, 152, 136); 
+    padding-top: 0PX;;
+}
+.godzilla, .round_6, .hackers{
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+}
+.duna, .loki{
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+}
+ .chainsaw_Man, .Kage3, .Long_Zu, .Shinobi , .Xian , .nome_cha{
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    
+}
+
+
+
+.viuva_negra, .lupin, .lucifer, .round_6{
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+}
+.eternos, .elite{
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+}
+a{
+    color: rgb(165, 19, 205);
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    background-color:  rgb(6, 2, 39);
+    /* deixa o texto em negrito */
+    font-weight: bold;
+}

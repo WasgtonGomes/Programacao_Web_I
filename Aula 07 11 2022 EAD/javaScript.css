@@ -1,0 +1,17 @@
+
+
+
+
+.fundo{
+    background-color: blue;
+    padding: 30px;
+    border: 2px solid black;
+}
+.texte{
+    background-color: brown;
+}
+.fonte{
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+}

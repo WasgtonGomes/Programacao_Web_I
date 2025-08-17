@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth; /*muda ou desse lentamente*/
+}
+
+#menu{/*formatando menu geral*/
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+#menu li{
+    list-style-type: none;
+    display: inline-block;/* deixa ele em linha de blocos*/
+    margin: 20px 2px;
+}
+
+#menu li a{
+    color: #000;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none; /* remove toda a decoração do texto*/
+}
+
+section{
+    width: 100%;
+    height: 100vh;/* vh é o viw corte de toda a janela*/
+    padding: 50px;
+    
+}
+
+
+#home{
+    background-color: aqua;
+}
+#quem{
+    background-color: bisque;
+}
+#produtos{
+    background-image: url('imagens/produtotv.webp');
+    background-repeat: no-repeat;
+    background-position: right bottom;/*trabalha com as posções*/
+    background-attachment: fixed; /*trabalha com a fixação de uma imagem */
+    margin-right: 200px;
+}
+#servico{
+    background-image: url('imagens/servico.jfif');
+    background-repeat: no-repeat;
+    background-position: right bottom;/*trabalha com as posções*/
+    background-attachment: fixed; /*trabalha com a fixação de uma imagem */
+    margin-right: 200px;
+}
+#contato{
+    background-image: url('imagens/contato.png');
+    background-position: center center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+

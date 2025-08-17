@@ -1,0 +1,76 @@
+body{
+    /*Formatando o corpo da página*/
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,  sans-serif;
+
+
+}
+
+
+h1{
+    border: rgb(39, 173, 190) double 3px;
+  /*  margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;*/
+
+}
+
+h2{
+    border: rgb(39, 173, 190) double 3px;
+  /*  margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;*/
+
+}
+h3{
+    border-top: 3px;
+    border-top-color:brown;
+    border-top-style:groove;
+    
+}
+
+p{
+    border-left: rgb(221, 15, 15) dotted 2px;
+    text-align:justify;
+
+}
+DIV{
+    background-color: aqua;
+    color: blue;
+/* padding:  45px  45px    45px        45px;*/     /*Formatação do texto até a  margens da div(margem interior do meu conteúdo ou também espaço que dentro da minha div)*/
+
+    /*       cima  baixo   esquerda     direita                   */
+    /*       top   bitton  left         kingnt    */
+
+    padding-top: 33px;                 /*cima*/
+    padding-right: 25px;                 /**/
+    padding-bottom: 10px;
+    padding-left: 25px;
+    /*Formatação de margens da div(margem extrerior do meu conteúdo ou também espaço que fora do meu elemeto)*/
+    margin: 25px /*35px 40px 25px*/;
+   /* margin-top:5px ;*/
+
+
+}
+div{
+    border-radius: 25px;
+}
+a{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;                       /* aredoinda as bordas*/
+    text-decoration: none;                   /* retira todas as confuguraões do contudo do link*/
+    color: antiquewhite;
+
+}
+a:hover{                                    /* muda a cor do botão quando passa o mouse em cima*/
+    background-color: chocolate;         /*cor de cursor do mouse em */
+    font-weight: bold;
+    box-shadow: 8px -8px 5px 2px  teal;          /* Formatação de sombreamento*/
+}
+.fundoamarelo{
+    background-color: yellow;
+    text-align: center;
+}

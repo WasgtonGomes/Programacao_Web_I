@@ -1,0 +1,40 @@
+
+h2{
+    display: block;
+    padding: 8PX 16PX;
+    color: blanchedalmond;
+    text-align: center;
+}
+h3{
+   text-align: center;
+   margin: 50px;
+}
+.aluno{
+    margin-bottom: 10px;
+    margin-left: 15%;
+    border-radius: 20px;
+    border-color: rgb(4, 50, 35);
+    border-color: rgb(64, 165, 178);
+    border-style: inset;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.aluno2{
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 15%;
+    border-radius: 20px;
+    border-color: rgb(4, 50, 35);
+    border-color: rgb(64, 165, 178);
+    border-style: inset;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+ img{
+    box-shadow: rgb(136, 136, 179) -6px 6px ;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/formulario.css">
+    <title>Envio de Pergunta</title>
+</head>
+
+<body>
+    <header>
+        <h1>Eleições 2022</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Candidato A</a></li>
+            <li><a href="#">Candidato B</a></li>
+            <li><a href="#">Pergunta debate</a></li>
+        </ul>
+    </nav>
+    <div class="linha">
+        <div class="formulario">
+            <form action="" method="post" enctype="multipart/form-data">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+                <label>Para quem:</label>
+                <input type="radio" name="destino" id="CandidatoA"><label for="CandidatoA" class="radio">Candidato A</label>
+                <input type="radio" name="destino" id="CandidatoB" > <label for="CandidatoB" class="radio">Candidato B</label>
+                <input type="radio" name="destino" id="candAB"> <label for="candAB" class="radio">Candida A e Candidato B</label>
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option value="educacao">Educação</option>
+                    <option value="saude">Saúde</option>
+                    <option value="segPub">Segurança pública</option>
+                </select>
+                <label for="pergunta">Pergunta</label>
+                <textarea name="pergunta" id="pergunta" cols="30" rows="5"></textarea>
+                <label for="anexo">Anexo</label>
+                <input type="file" name="anexo" id="anexo">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

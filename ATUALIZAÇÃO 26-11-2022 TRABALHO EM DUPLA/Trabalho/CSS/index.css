@@ -1,0 +1,115 @@
+
+
+
+
+
+#filme5,#series5, #mangas5, #anime5, #cartaz5{
+    border: rgb(0, 0, 0) solid;
+    border-radius: 4px;
+    text-align: center;
+    margin: 4px;
+    background-color: rgb(79, 77, 77);
+    max-width: 100%;
+}
+img{
+    max-width:400px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    
+    
+}
+.p{
+    text-align: center;
+}
+.div1{  
+    margin: 2%;
+    width: 15%;
+    float:left;
+    text-align: center;
+    max-width: 100%;
+}
+
+.div1 p{
+    text-align: justify;
+}
+
+.div1 a, .div2 a, .div3 a, .div4 a , .div5 a{
+    text-align: center;
+}
+.div2{
+    margin: 2%;
+    width: 15%;
+    float:left;
+    text-align: center;
+    max-width: 100%;
+
+}
+.div2 p {
+    text-align: justify;
+}
+.div3{
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+
+    max-width: 100%;
+    align-items: center;
+    
+}
+
+.div3 p {
+    text-align: justify;
+}
+.div4{
+    margin: 2%;
+    width: 15%;
+     float: right;
+    text-align: center;
+    max-width: 100%;
+}
+.div4 p {
+    text-align: justify;
+}
+.div5{
+    margin: 2%;
+    width: 15%;
+    float: right;
+    text-align: center;
+    max-width: 100%;
+}
+
+.div5 p {
+    text-align: justify;
+}
+a{
+    color: rgb(165, 19, 205);
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: 100%;
+    align-items: center;
+}
+a:hover{
+    background-color:  rgb(6, 2, 39);
+    /* deixa o texto em negrito */
+    font-weight: bold;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 0px;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: -20px;
+}
+
+.iconesLink {
+    text-align:  center;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href="CSS/menu.css">
+    <title> Wasgton Gomes Pereira</title>
+</head>
+<body>
+    <header> 
+
+        <h1>Atividade Sábado letivo 03/12/2022 Wasgton Gomes Pereira</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html"> Menu demostrativo</a></li>
+                    </ul>
+
+
+    </nav>
+
+    <section class="flex-container">
+        <div class="Flexbox_div"><h1>Atividade individual </h2>
+        <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" target="_blank"> <h3>O que é o Flexbox? </h3></a></p>
+            <br><p>O Módulo de Caixa Flexível , geralmente chamado de flexbox , foi projetado tanto como um modelo de layout unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, além de possuir recursos avançados de segurança.</p>
+            <br>
+
+        </div>
+        <div class="Conatainer_flex_div">
+        <p> <a href="https://blog.betrybe.com/css/css-flexbox/"> <h3>Flex Container</h3></a></p>
+            <br><p>É o principal elemento que envolve todos os itens de uma estrutura flex, nele é definido a propriedade display: flex.</p>
+            <br>
+        </div>
+
+        <div class="flex_item_div">
+        <p> <a href="https://blog.betrybe.com/css/css-flexbox/"> <h3>Flex Item</h3></a></p><br>
+            <p>É o principal elemento que envolve todos os itens de uma estrutura flex, nele é definido a propriedade display: flex.</p>
+            <br>
+            <div> <p> 1</p></div>
+            <div> <p> 2</p></div>
+            <div> <p> 3</p></div>
+            <div> <p> 4</p></div>
+        </div>
+        <div class="eixos_div">
+        <p><a href="https://blog.betrybe.com/css/css-flexbox/"> <h3>Eixos</h3></a></p><br>
+            <p> Para entender as propriedades do Flexbox, devemos primeiro entender os seus 2 principais conceitos: Eixos Flex (Flex Axis) e Linhas Flex (Flex Lines). Toda essa ideia é baseada nos eixos que determinam as direções dos itens que estão dentro de um container flex.</p>
+            <br>
+            <p>A ilustração a seguir mostra quais os eixos definidos num container flex: </p>
+            <br>
+            <img src="imagem/Eixos.png" alt="">
+            <div class="a1"> 
+                <h2>Eixo principal</h2><br>
+                <p>É o eixo da linha do Flexbox onde os itens serão alocados. Por padrão, é definido sendo horizontal (row), mas pode ser mudado através da propriedade flex-direction.</p></div>
+                <br>
+                
+                <div class="a1"> 
+                    <h2>Eixo Transversal</h2><br>
+                    <p>É o eixo perpendicular ao principal, ou seja, é um eixo que depende da direção do principal: se esse for horizontal a transversal vai ser vertical.</p></div>
+                    <br>
+                </div>
+            <div class="a1"> 
+                    <h2>Início principal e Fim principal</h2><br>
+                    <p> São as bases de início e fim para os itens do container, também podem ser alterados por meio da propriedade flex-direction.</p></div>
+                    <br>
+            </div class="a1">
+            <div> 
+                    <h2>Início Transversal e Início Transversal</h2><br>
+                    <p> SNesse caso, são o início e fim das linhas transversais adicionadas ao container. São uma parte muito importante para o alinhamento vertical usando a propriedade align-items que veremos logo mais.</p></div>
+                    <br>
+            </div>
+        </div>
+        <div class="propriedades_container_div">
+           <p> <a href="https://blog.betrybe.com/css/css-flexbox/"> <h3>Propriedades CSS para o flex container</h3></a></p><br>
+            <p> Para entender melhor os conceitos do Flexbox temos que entender todas as propriedades disponíveis para o Flex container. Separamos logo abaixo os principais atributos do elemento-pai: </p>
+            <br>
+            <p>A ilustração a seguir mostra quais os eixos definidos num container flex: </p>
+            <br>
+            <div class="a1"> 
+                <h2>Display: definindo um flex container(inline ou block)</h2><br>
+                <p>A primeira e mais importante propriedade serve para colocar todos os elementos-filhos dentro de um container Flex, nela podemos definir o valor flex ou inline-flex.</p></div>
+                <br>
+                <img src="imagem/display.png" alt="">
+                
+                <div class="a1"> 
+                    <h2>Flex-direction: definindo em qual direção o elemento flex será exibido</h2><br>
+                    <p>Aqui podemos escolher a direção na qual queremos apresentar os nossos itens. a partir do eixo principal conseguimos definir a direção que deve ser seguida. Imagine que o Flex container é um elemento que junta vários elementos-filhos em uma única direção e essa direção pode ser trocada com o flex-direction.</p></div>
+                    <br>
+                    <img src="imagem/diretion.png" alt="">
+                    <br>
+                    <img src="imagem/flx direcion.png" alt="">
+                </div>
+            <div class="a1"> 
+                    <h2>Flex-wrap: gerando quebras de linhas automática</h2><br>
+                    <p> Se você tentou utilizar o Flexbox mas se deparou com problemas na quebra de linha, saiba que esse comportamento é o padrão da ferramenta. Com a propriedade flex-wrap definimos se queremos ou não quebrar a linha ou até mesmo se queremos quebrar a linha “reversamente”.</p>
+                <p>.flex-container {
+                    flex-wrap: nowrap | wrap | wrap-reverse;
+                } </p>
+                </div>
+                    <br>
+            </div class="a1">
+            <div> 
+                    <h2>Flex-flow: definindo os eixos principal e transversal do container</h2><br>
+                    <p> Nessa propriedade, temos a junção do flex-direction com o flex-wrap, formando assim uma propriedade chamada shorthand, quando uma mesma declaração contém vários valores, como é o caso em algumas propriedades das cores. Consequentemente, temos a declaração dos eixos principais e transversais por meio desse campo. O valor padrão é row nowrap.</p></div>
+                    <br>
+            </div>
+                        <div> 
+                    <h2>Flex-flow: definindo os eixos principal e transversal do container</h2><br>
+                    <p> Nessa propriedade, temos a junção do flex-direction com o flex-wrap, formando assim uma propriedade chamada shorthand, quando uma mesma declaração contém vários valores, como é o caso em algumas propriedades das cores. Consequentemente, temos a declaração dos eixos principais e transversais por meio desse campo. O valor padrão é row nowrap.</p></div>
+                    <br>
+            </div>
+            
+            <div class="propriedades_flex_items_div">
+              <p>  <a href="https://blog.betrybe.com/css/css-flexbox/"> <h3>Propriedades CSS para os flex items</h3></a></p><br>
+
+                <div class="a1"> 
+                    <h2>Flexbox align-items: alinhando os elementos no eixo transversal</h2><br>
+                    <p>Aqui temos uma propriedade que altera a ocupação dos itens no eixo transversal dentro do Flex container. Temos os seguintes valores possíveis:</p></div>
+                    <br>
+                    <img src="imagem/Itens.jpg" alt="">
+                    <p>stretch (padrão): Os itens são esticados para preencher todo o espaço vazio do eixo transversal.</p>
+                       <br> <p>flex-start: Os itens são alocados no começo do eixo transversal.</p>
+                      <br>  <p> flex-end: Os itens são postos no fim do eixo transversal.</p>
+                          <br>  <p> center: Os itens são distribuídos no meio do eixo transversal.</p>
+                             <br>   <p>baseline: Por último, temos o alinhamento a partir da primeira letra do texto de cada item.</p>
+                    
+
+    
+        </div>
+
+
+        <footer>
+
+            <p>Atividade da disciplina de Fundamentos da programação web</p>
+            <p>Turma: ADS 3º Periódo 2022/02</p>
+        </footer>
+        
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.corpo, .sessao{
+   background-color: rgb(79, 77, 77);
+
+   min-height: 100%;
+   background-image: url(Imagem/Fundo-Mangas.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+
+}
+
+
+
+.sessao img{
+    max-width:400px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin: 8px;
+    float: left;
+    border-radius: 3px;
+    text-align: justify;
+ }
+
+.textoHustificado{
+    text-align: justify;
+}
+
+ .manga_div_01_01, .manga_div_01_02, .manga_div_02_01 , .manga_parte_02_02{  
+    margin-top: 20px;
+    margin-left: -8px;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    text-align: justify;
+    max-width: 100%;
+    min-width: 130px;
+    
+ }
+
+a{
+    color: rgb(165, 19, 205);
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    background-color:  rgb(6, 2, 39);
+    font-weight: bold;
+}

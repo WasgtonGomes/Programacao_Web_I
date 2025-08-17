@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(147, 215, 218);
+    border-radius: 3PX;
+}
+head{
+    background-color: rgb(185, 27, 27);
+    border-radius: 3PX;
+}
+footer{
+    background-color: rgb(20, 146, 30);
+    border-radius: 3PX;
+}
+img{
+    text-align: center;
+    border-radius: 3PX;
+}
+
+head, h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    /* text-align: justify; */
+    align-items: center;
+}
+
+.flex-container {
+    display: inline-flexbox ;
+    justify-content: start;
+    align-items: center;
+}
+.Conatainer_flex_div, .flex-container, .flex_item_div , .eixos_div, .propriedades_flex_items_div{
+    padding: 20px;
+    margin: 5px;
+    border: 2px;
+    border-color:blue;
+    border-radius: 3px;
+    flex-direction: row;
+    background-color: brown;
+}
+
+.flex_item_div{
+    /* flex-grow: numero; */
+    flex-direction: row;
+    background-color: brown;
+    border: 20px;
+    border-color: black;
+}
+.eixos_di{
+    display: inline-flexbox;
+    flex-direction: column;
+}
+.eixos_div img{
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: rgb(19, 137, 205);
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none; /* none retira a decoração do fonte e aplica a sua propria*/
+    font-weight: bold;
+    max-width: 100%;
+    align-items: center;
+  
+}
+a:hover{
+    background-color:  rgb(6, 2, 39);
+    /* deixa o texto em negrito */
+    font-weight: bold;
+}
