@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(79, 77, 77);
+}
+.filmes img{
+    max-width:400px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin: 8px;
+    float: left;
+    border-radius: 3px;
+ }
+ p{
+    text-align: justify;
+ }
+
+.parte1{  
+    margin-top: 20px;
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.parte2{
+    margin-top: 20px;
+    width:50%;
+    float:right;
+    padding: 10px;  
+}
+
+.parte21{
+    margin-top: 20px;
+    width:50%;
+    float:right;
+  
+    padding-top: 0px;  
+}
+
+.textojustificado{
+    text-align: justify;
+}
+
+a{
+    color: rgb(165, 19, 205);
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    background-color:  rgb(6, 2, 39);
+    /* deixa o texto em negrito */
+    font-weight: bold;
+}
+h4{
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: -20px;
+}
+
