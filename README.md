@@ -15,7 +15,7 @@ Repositório das atividades e projetos da disciplina **Fundamentos da Programaç
   - Páginas: *Home, Em Cartaz, Animes, Filmes, Mangá, Séries, Sobre*  
   - Recomendações com sinopse, gênero, links e trailers via YouTube  
 
-- **Projeto Especial — Debate Eleitoral (Sábado Letivo 03/12/2022)**  
+- **Projeto Especial — Debate Eleitoral**  
   - Páginas: *candidato_a.html, candidato_b.html, debate.html, onepage.html*  
   - Estrutura **OnePage** com navegação fluida  
   - Layout temático de debate político  
