@@ -44,7 +44,39 @@ a atividade especial de **Sábado Letivo (03/12/2022)** e exercícios práticos 
   - Pasta **PW**: práticas dirigidas de Programação Web I.  
   - Estrutura inicial do repositório, mostrando o progresso desde os fundamentos até os projetos mais avançados.
 
+
+
+
 ---
+
+---
+
+## 🧩 Atividades Extras de Aula
+
+- **Manipulação de Classes (07/11/2022)**  
+  - Arquivo: *aula07-11.html*  
+  - Conteúdo: uso da propriedade **classList** em JavaScript.  
+  - Funções implementadas:  
+    - `addClass()` → adiciona uma classe ao elemento  
+    - `removeClass()` → remove uma classe  
+    - `containsClass()` → verifica se a classe existe  
+    - `alterarClass()` → alterna a classe  
+    - `substituirClass()` → substitui a classe  
+  - Objetivo: aprender a manipular dinamicamente o estilo de elementos via **JS + DOM**:contentReference[oaicite:2]{index=2}  
+
+- **Menu Responsivo com Ícone (Hambúrguer)**  
+  - Arquivo: *menuH.html*  
+  - Estrutura de navegação com **HTML + CSS (mh.css)** e interação com **JavaScript (mh.js)**.  
+  - Recursos:  
+    - Menu fixo com links (*Home, Clientes, Produtos, Contatos*)  
+    - Botão de menu usando **Google Material Icons**  
+    - Versão adaptada para dispositivos móveis com abertura/fechamento do menu lateral  
+  - Objetivo: introdução a **menus responsivos e design adaptável**:contentReference[oaicite:3]{index=3}  
+
+---
+
+
+
 
 ## 🎬 Projeto destaque — Catálogo de Entretenimento NW
 Site estático com recomendações de **filmes**, **animes**, **séries** e itens **em cartaz**, com:
