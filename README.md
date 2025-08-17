@@ -11,15 +11,25 @@ Repositório das atividades e projetos da disciplina **Fundamentos da Programaç
 - **GitHub Pages** para site estático
 
 ## 🗂 Estrutura (principais)
-- **Projeto Final:** *Catálogo de Entretenimento NW*  
+- **Projeto Final — Catálogo de Entretenimento NW**  
   - Páginas: *Home, Em Cartaz, Animes, Filmes, Mangá, Séries, Sobre*  
   - Recomendações com sinopse, gênero, links e trailers via YouTube  
 
-- **Projeto Especial (Sábado Letivo 03/12/2022):* Debate Eleitoral — Página OnePage*  
-  - Páginas individuais de candidatos (*candidato_a.html, candidato_b.html*)  
-  - Página de **debate** com comparativo  
+- **Projeto Especial — Debate Eleitoral (Sábado Letivo 03/12/2022)**  
+  - Páginas: *candidato_a.html, candidato_b.html, debate.html, onepage.html*  
   - Estrutura **OnePage** com navegação fluida  
-  - Aplicação prática de **HTML, CSS e links de navegação**  
+  - Layout temático de debate político  
+  - Aplicação prática de **HTML, CSS e navegação entre páginas**  
+
+- **Atividade Sábado Letivo — Flexbox Playground (03/12/2022)**  
+  - Arquivos: *indice.html* + pastas **CSS/** e **imagem/**  
+  - Objetivo: praticar **layout moderno com Flexbox** e entender os eixos e alinhamentos.  
+  - O que foi desenvolvido: exemplos visuais com caixas numeradas demonstrando  
+    - `display: flex` e `inline-flex` (definição do *flex container*)  
+    - `flex-direction: row | row-reverse | column | column-reverse`  
+    - Conceito de **eixo principal** e **eixo transversal**  
+    - `align-items: stretch | center | flex-start | flex-end | baseline`  
+  - Aplicação: construção de seções responsivas simples e organização de conteúdo sem usar *floats*.
 
 ## 🎬 Projeto destaque — Catálogo de Entretenimento NW
 Site estático com recomendações de **filmes**, **animes**, **séries** e itens **em cartaz**, com:
